@@ -25,7 +25,11 @@
     <option name="priority" value="Medium" />
     <option name="excludeFilter" value="" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectRootManager">
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+>>>>>>> 7ff087cff1f434167a580cdee9a81e928de8521a
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SuppressionsComponent">
