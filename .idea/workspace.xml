@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7fa8e43-401d-4ae0-addb-05e8bc80a453" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Collections/src/queue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections/src/queue/Main.java" afterDir="false" />
+    <list default="true" id="a7fa8e43-401d-4ae0-addb-05e8bc80a453" name="Changes" comment="Corrected misc.xml">
+      <change afterPath="$PROJECT_DIR$/collectionsapi/src/setinterface/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,38 +44,86 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2M68qST92nyzBLjZsJqcpA5y7kA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Users/u228616/Documents/github/java8",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "fileTemplates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/u228616/Documents/github/java8&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.QueueRunner">
+}</component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="java8" />
+      <option name="MAIN_CLASS_NAME" value="setinterface.Main" />
+      <module name="collectionsapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="setinterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.QueueRunner" />
-      <module name="Collections" />
+    <configuration name="setinterface.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="setinterface.Main" />
+      <module name="collectionsapi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
+          <option name="PATTERN" value="setinterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="setinterface.Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="setinterface.Main" />
+      <module name="collectionsapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="setinterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="setinterface.Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="setinterface.Main" />
+      <module name="collectionsapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="setinterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="setinterface.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="setinterface.Main" />
+      <module name="collectionsapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="setinterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,10 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QueueRunner" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.setinterface.Main (3)" />
+        <item itemvalue="Application.setinterface.Main (2)" />
+        <item itemvalue="Application.setinterface.Main (1)" />
+        <item itemvalue="Application.setinterface.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677089392955</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Corrected misc.xml">
+      <created>1677818385450</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677818385450</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,7 +185,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="feature" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
