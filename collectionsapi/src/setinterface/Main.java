@@ -20,7 +20,7 @@ public class Main {
 class SortedSetExample {
     static void run() {
         // s is stored in ascending order: "Good", "World", "morning". Notice 'm' not 'M' in "morning".
-        SortedSet<String> s = new TreeSet<>(Arrays.asList("Good", "morning", "World"));
+        SortedSet<String> s = new TreeSet<>(Arrays.asList("Good", "morning", "World", "beautiful"));
         System.out.println("s: " + s);
 
         // Iterate set: elements are automatically sorted in SortedSet
@@ -35,15 +35,16 @@ class SortedSetExample {
         System.out.println("last: " + last);
 
         // All elements but first
-        // SortedSet<String> tail = s.tailSet(first + '\0'); // NULL character is needed by tailSet() for String
-        SortedSet<String> tail = s.tailSet(first); // NULL character is needed by tailSet() for String
-        System.out.println(tail);
+        SortedSet<String> tail = s.tailSet(first + '\0'); // NULL character is needed by tailSet() for String
+        // SortedSet<String> tail = s.tailSet(first); // NULL character is needed by tailSet() for String
+        System.out.println("All elements but first: " + tail);
 
         // All elements but last
         SortedSet<String> head = s.headSet(last);
-        System.out.println(head);
+        System.out.println("All elements but last: " + head);
 
+        // All elements but first and last
         SortedSet<String> middle = s.subSet(first + '\0', last);
-        System.out.println(middle);
+        System.out.println("All elements but first and last: " + middle);
     }
 }
