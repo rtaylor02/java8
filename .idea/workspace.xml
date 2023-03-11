@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7fa8e43-401d-4ae0-addb-05e8bc80a453" name="Changes" comment="Added Set interface example using SortedSetExample">
-      <change afterPath="$PROJECT_DIR$/collectionsapi/src/listinterface/Main.java" afterDir="false" />
+    <list default="true" id="a7fa8e43-401d-4ae0-addb-05e8bc80a453" name="Changes" comment="Added List interface example using ListExample">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enumtypes/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enumtypes/src/main/java/Day.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enumtypes/src/main/java/EnumRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enumtypes/src/test/java/EnumDayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -44,6 +52,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2M68qST92nyzBLjZsJqcpA5y7kA" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -54,91 +69,81 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/u228616/Documents/github/java8&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/home/rtaylor/Documents/code/java8",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editing.templates"
   }
-}</component>
-  <component name="RunManager" selected="Application.setinterface.Main (4)">
-    <configuration name="setinterface.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="setinterface.Main" />
-      <module name="collectionsapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="setinterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EnumDayTest">
+    <configuration name="EnumDayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="enumtypes" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EnumDayTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="setinterface.Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="setinterface.Main" />
-      <module name="collectionsapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="setinterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="EnumDayTest.testCalculateMoodForMonday" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="enumtypes" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EnumDayTest" />
+      <option name="METHOD_NAME" value="testCalculateMoodForMonday" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="setinterface.Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="setinterface.Main" />
-      <module name="collectionsapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="setinterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="EnumDayTest.testCalculateMoodForTuesday" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="enumtypes" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EnumDayTest" />
+      <option name="METHOD_NAME" value="testCalculateMoodForTuesday" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="setinterface.Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="setinterface.Main" />
-      <module name="collectionsapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="setinterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="EnumDayTest.testCalculateMoodForWednesday" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="enumtypes" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EnumDayTest" />
+      <option name="METHOD_NAME" value="testCalculateMoodForWednesday" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="setinterface.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="setinterface.Main" />
-      <module name="collectionsapi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="setinterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="EnumDayTest.testWednesday" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="enumtypes" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EnumDayTest" />
+      <option name="METHOD_NAME" value="testWednesday" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.setinterface.Main (4)" />
-        <item itemvalue="Application.setinterface.Main (3)" />
-        <item itemvalue="Application.setinterface.Main (2)" />
-        <item itemvalue="Application.setinterface.Main (1)" />
-        <item itemvalue="Application.setinterface.Main" />
+        <item itemvalue="JUnit.EnumDayTest" />
+        <item itemvalue="JUnit.EnumDayTest.testCalculateMoodForWednesday" />
+        <item itemvalue="JUnit.EnumDayTest.testCalculateMoodForTuesday" />
+        <item itemvalue="JUnit.EnumDayTest.testCalculateMoodForMonday" />
+        <item itemvalue="JUnit.EnumDayTest.testWednesday" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677820374262</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added List interface example using ListExample">
+      <created>1678355540503</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678355540503</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,17 +221,22 @@
     <MESSAGE value="Init commit" />
     <MESSAGE value="Corrected misc.xml" />
     <MESSAGE value="Added Set interface example using SortedSetExample" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Set interface example using SortedSetExample" />
+    <MESSAGE value="Added List interface example using ListExample" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added List interface example using ListExample" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/collectionsapi/src/listinterface/Main.java</url>
-          <line>86</line>
+          <line>85</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
